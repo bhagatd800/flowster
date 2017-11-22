@@ -1,0 +1,16 @@
+{
+  "name": "flowster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
